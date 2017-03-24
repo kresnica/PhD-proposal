@@ -30,14 +30,12 @@ Liquid crystals are soft materials with a degree of orienataional order in compa
 This is achieved by the molecules of liquid crystal being anisotropic, i.e. elongated in one direction, and also reinforced by intermolecular forces.  
 In a range of temperatures, they exhibit an additional phase between solid in liquid, in which they retain a degree of orientational order while losing the positional order. 
 They have proven to be an important material in soft matter physics with many possibilities for applications in different industries as well, ranging from liquid crystal displays to nematic ordering systems. 
-
 As stated already, their main characteristic is a degree of orientational order combined with positional disorder (in nematics in 3D, at least partial -- 2D -- in smectic liquid crystal). 
 Their orientational order leads to several other characteristics. 
 First is their elasticity: their free energy increases, if -- because of external fields or boundary conditions -- their orientational order is disturbed. 
 With the elasticity, they can take into account the orientational order of colloidal inclusions. 
 On the other hand, their orientational order leads into optical anisotropy as well: mostly, liquid crystals possess an extraordinary index of refraction (along the long axis of the molecules) larger than the ordinary index. 
 Their optical birefringence opens the possibility for exploitation in optical systems such as waveguides etc. 
-
 They are also easily manipulated with external fields, especially electric field, which tends to turn the long axis of the liquid crystal molecules to be polarized along the field. 
 With the electric field, the elastic forces and the optical properties can be controlled. 
 
@@ -61,7 +59,6 @@ If the photonic fibre is filled exclusively with liquid crystal, it can be used 
 Metamaterials are another fascinating segment of materials science. 
 They are characterised by their extraordinary optical properties \cite{gja}.
 (We would have to add that the concept of metamaterials applies to any kind of waves; besides optical waves, also elastic or acoustic waves come into play). 
-
 The defining feature of metamaterials is their man-made composition: they are built in periodic unit cells with their periodicity being generally much smaller than the wavelength of light. 
 Since the building blocks are smaller than the wavelength, the light propagates through the material as if it was homogeneous (anisotropic, but homogeneous). 
 However, since the geometry and the material composition of the building blocks can be adjusted, the optical response of such a composite can be, to an extent, engineered. 
@@ -74,7 +71,6 @@ Some of the work in that direction has been successfully done \cite{lal, ei}.
 Because of the high losses inside metals at optical frequencies, the incentive has moved from producing bulk metamaterials towards other options, namely dielectric metamaterials, which have lower losses \cite{}, and metasurfaces, which are 2D metamaterials. 
 An use of the metamaterials is as selective absorbers for selected incoming angles, polarisations and wavelengths of light. 
 Lately, the research focus has shifted towards wavefront shaping -- the shaping of the phase and the polarisation of the transmitted wave -- with metasurfaces \cite{}.  
-
 Another direction in which the field has departed are hyperbolic metamaterials: materials with anisotropic permittivity tensor, which may also have some of its eigenvalues negative. 
 With it, negative refraction can also be achieved in the sense of the Poynting vector being refracted negatively.
 
@@ -84,10 +80,8 @@ With it, negative refraction can also be achieved in the sense of the Poynting v
 Metamaterials are intrinsically connected with the field of liquid crystals, as both are optically anisotropic. 
 In addition, the optical anisotropy could be in liquid crystal metamaterials enforced even further and more pronounced. 
 Liquid crystals (and other birefringent materials) can by itself, without metamaterial inclusions, for a narrow region of incoming angles around perpendicular to the surface boundary, exhibit negative refraction, since the walk-off angle is negative for birefringent media with positive anisotropy. 
-
 %It is not a true negative-index metamaterial. 
 %Anisotropic metamaterials with hyperbolic dispersion relation can exhibit all possible angles of the Poynting vector. (to boš ti delala, ne o tem tu pisat.)
-
 Another challenge in the field of metamaterials is the production of bulk metamaterials. 
 In the past, the engineering of metamaterials has mostly taken the up-to-the-bottom approach, meaning that every building block has been specifically placed in its place, which is experimentally very difficult and renders many applications impractical. 
 It would be very much desired to take a bottoms-up approach of self-arranging colloidal particles as in \cite{tartan}. 
@@ -95,14 +89,35 @@ There, the colloidal particles, obtained from direct laser writing, were self-as
 Some suggestions to obtain hyperbolic metamaterials have also shown the way of metallic (plasmonic) spheres, immersed in liquid crystal, which partially order due to the liquid crystal elasticity. 
 Numerical analysis (homogenisation techniques) show that the eigenvalues of such media would be differently signed \cite{khoo}. 
 Some experiments have been performed \cite{ponsinet-virginie?}. 
-
 Metamaterial building blocks can also mimic liquid crystals in order to achieve their orientational order. 
 Many experiments have been performed with golden nanorods ordering because of their prolong shape in connection with the elasticity of liquid crystals \cite{nanoparticles}. 
 Some experiments have been very explicit in this mimicking \cite{shadrivov}. 
-
 As it comes very naturally with liquid crystals, many applications also include the tuning of the director field with electric field. 
 With the help of voltage, the resonant frequency, i.e. the operational frequency at which negative refractive index is observed, was fine-tuned, and the liquid crystals were used to switch between the on- and off-states of a metasurface. 
 
+% KODA
+
+Optical propagation through metamaterials is very complicated due to different material effects and elaborate geometry boundary conditions. 
+In liquid crystals, the definite calculation of the flow of light is equally challenging, because of their optical birefringence. 
+With that in mind, numerical simulations are a viable tool in determining the response of such soft matter structures. 
+My thesis will be prepared with a code developed in our group. 
+It is based on FDTD with slight alterations. 
+FDTD (short for finite-difference time-domain) is a finite difference method, where the derivatives are approximated with finite differences, while the time-domain part means a wide range of frequencies can be covered with one simulation. (prehodni pojavi). 
+In FDTD, Maxwell's equations are integrated quite explicitly, which allows for simple implementation of different optical phaenomena such as nonlinearity. 
+Traditionally, FDTD is used in combination with Yee mesh, in which the components of electrical and magnetic fields are positioned in a cubic stacked grid and propagated in a leapfrog fashion in time. 
+Our code is adapted for optically anisotropic materials, as well as for frequency dispersive materials with the ADE (auxiliary differential equation) method. 
+As a model for frequency dispersive dielectric function, the plasma, Drude, and Lorentz models can be used. 
+We have also implemented the possibility of anisotropic and frequency dispersive materials in one. 
+
+While the main objective of this PhD is to explore the optical response of soft matter metamaterials, it is also crucial to take into account the relaxation of the liquid crystal by optical fields as well. 
+This will be done with free energy minimisation algorithms, namely the relaxation algorithm \cite{ravnik}, also incorporated in our group. 
+The code takes into account different time scales of the light propagation ($\approx \mathrm{ps}$) and relaxation ($\approx \mathrm{ms}$). 
+
+% REFRACTION INTO HYPERBOLIC METAMATERIALS
+
+With this powerful tools we will examine several theoretical and experimental example cases of soft-matter metamaterials. 
+As a model case we will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs. 
+Firstly we will be interested in a case on refraction from vacuum into a system with optical axis homogeneous across the material and 
 
 % 
 % 
@@ -139,9 +154,34 @@ With the help of voltage, the resonant frequency, i.e. the operational frequency
 %                                                    *tuning \cite{zhang-2007-lc-mtm-tuning}
 
 
-
-
 % ------------ MY THESIS ------------
+
+
+%
+%
+% ------------------- Methods -------------------------
+* zakaj se tega lotevamo v glavnem numerično: * zahtevni robni pogoji (komplicirana geometrija)
+                                              * materiali z netrivialnimi optičnimi lastnostmi (absorpcija, anizotropija)
+%
+% \subsection{FDTD}
+* finite difference: approximate the derivatives with finite differences (a discretization method)
+* time-domain: pokrije široko frekvenčno območje (prehodne pojave) z eno simulacijo (realna propagacija v času)
+* Yee in osnovna ideja FDTD (stacked grid, leapfrog time-stepping)
+* prednosti metode: dobiš točno sliko v času z vsemi prehodnimi pojavi zraven
+* slabosti: zna biti požrešna s spominom --) ker rabiš določeno število pik na valovno dolžino, so velikosti vzorcev, ki jih lahko simuliraš, omejene. 
+* prilagoditev celice za anizotropne materiale (tekoči kristali)
+* moja prilagoditev za frekvenčno disperzijo: ADE --) simuliranje permitivnosti realnih kovin z plazemskim modelom, Drudejevim modelom in Drude-Lorentzovim modelom
+* moja prilagoditev za frekvenčno disperzijo -- anizotropno --) simuliranje neg. n anizotropnih materialov
+
+% \subsection{Modelling of liquid crystals -- Landau-de Gennes methods}
+* free energy minimisation relaxation algorithms 
+* Lattice Boltzmann methods? Najbrž bolj ne ... 
+% 0.5 page
+% 
+%
+%
+
+
 
 We would like to cooperate with \ldots (našteješ vse, ki se jih spomniš (?))
 
@@ -150,8 +190,9 @@ We would like to cooperate with \ldots (našteješ vse, ki se jih spomniš (?))
 %
 % 0.25 pages
 * Refraction on the boundary between vacuum and anisotropic homogeneous metamaterial
-* spatially modulated meta-liquid-crystal structures: xy
-* spatially modulated meta-liquid-crystal structures: xz
+* spatially modulated meta-liquid-crystal structures: xy -- primerjava optičnih lastnosti z že obstoječimi holesteričnimi tekočimi kristali
+* spatially modulated meta-liquid-crystal structures: xz -- kot zanimivost
+* spatially modulated other negative-n structures
 
 % \subsection{Spatially modulated meta-liquid-crystal structures}
 % liquid crystals as photonic crystals (xy-cholesterics, xz structures)
@@ -179,23 +220,7 @@ With some director profiles we can achieve focusing; special emphasis will be pu
 %
 % 
 % 
-%
-%
-% ------------------- Methods -------------------------
-%
-% \subsection{FDTD}
-* Yee in osnovna ideja FDTD
-* prilagoditev celice za anizotropijo
-* moja prilagoditev za frekvenčno disperzijo: ADE --) simuliranje realnih kovin
-* moja prilagoditev za frekvenčno disperzijo -- anizotropno --) simuliranje neg. n anizotropnih materialov
 
-% \subsection{Modelling of liquid crystals -- Landau-de Gennes methods}
-* free energy minimisation: 
-* Lattice Boltzmann methods? Najbrž bolj ne ... 
-% 0.5 page
-% 
-%
-%
 %
 %
 % ------------ Conclusion and outlook -----------------
