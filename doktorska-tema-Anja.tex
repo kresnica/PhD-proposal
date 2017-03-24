@@ -5,7 +5,7 @@
 \usepackage{setspace}
 
 %opening
-\title{\Large{Doctoral thesis disposition} \\ \LARGE{Soft matter metamaterials}}
+\title{\huge{Soft matter metamaterials}}
 \author{Author: Anja Bregar \and Advisor: Miha Ravnik}
 
 \begin{document}
@@ -115,9 +115,35 @@ The code takes into account different time scales of the light propagation ($\ap
 
 % REFRACTION INTO HYPERBOLIC METAMATERIALS
 
-With this powerful tools we will examine several theoretical and experimental example cases of soft-matter metamaterials. 
-As a model case we will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs. 
-Firstly we will be interested in a case on refraction from vacuum into a system with optical axis homogeneous across the material and 
+With these powerful tools we will examine several theoretical and experimental example cases of soft-matter metamaterials. 
+As a model case we will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs: liquid-crystal like metamaterials. 
+Firstly we will be interested in a case on refraction from vacuum into a system with optical axis homogeneous across the material and tilted with respect to the metamaterial boundary. 
+As an upgrade of this systems, examples with periodic modulation of the director profile will be examined. 
+As a comparison with the already existing cholesteric positive-$n$ systems (the optical axis is twisting in the plane of the incoming plane wave), we will explore cholesteric hyperbolic metamaterial systems with some of the permittivity eigenvalues negative and compare results with the all-positive case. 
+We will be especially interested in the Bragg-reflective regime for circularly polarised light. 
+Additionally, we will perform calculations for the propagation of light perpendicularly to the optical axis, for which no clear theoretical framework is established. 
+If the time will permit, we will exhibit 3D spatial modulation of frequency-dispersive permittivity tensor and explore possibilities for successful modulation of light.  
+
+% WAVEGUIDING 
+
+The control over the flow of light will be explored for materials with all-positive refractive index as well. 
+In cooperation with prof. Etienne Brasselet from University of Bordeaux, different proposals for waveguides, composed and filled with liquid crystals, will be simulated and analysed theoretically. 
+Through different boundary conditions and other manipulation, different director profiles can be introduced into the liquid crystal. 
+The modulation of the refractive index profile can in turn affect the propagation of light. 
+With some director profiles we can achieve focusing of selected incoming polarizations.
+Special emphasis will be put on the director profiles which exhibit focusing for positive anisotropy ($n_{o} < n_e$), so the structures are easily obtainable experimentally. 
+
+% ORDERING OF COLLOIDS
+
+To compose a bulk metamaterial from bottoms up, we would like to test self-assembly of metallic colloids in liquid crystals.
+As some orientations of the colloid are energetically more favourable because of nematic elastic energy, the horseshoe colloids might, as the theoretical studies of J. Aplinc \cite{jure-HS} show, self-assemble in 2D and 3D photonic crystals. 
+The analysis of the interplay between the influences of the geometry of such a photonic crystal and the optical parameters of the materials used provides a rich case of study. 
+Comparison of metallic colloidal inclusions with dielectric ones also gives experimental diversity. 
+Since the optical parameters are highly dependent on the frequency of light, diverse response is achieved across different wavelengths. 
+Experimental realisation of these ideas would be explored in the team of prof. Muševič, group F5 on JSI. 
+
+% \subsection{Waveguiding}
+% 0.25 pages
 
 % 
 % 
@@ -160,22 +186,22 @@ Firstly we will be interested in a case on refraction from vacuum into a system 
 %
 %
 % ------------------- Methods -------------------------
-* zakaj se tega lotevamo v glavnem numerično: * zahtevni robni pogoji (komplicirana geometrija)
-                                              * materiali z netrivialnimi optičnimi lastnostmi (absorpcija, anizotropija)
-%
-% \subsection{FDTD}
-* finite difference: approximate the derivatives with finite differences (a discretization method)
-* time-domain: pokrije široko frekvenčno območje (prehodne pojave) z eno simulacijo (realna propagacija v času)
-* Yee in osnovna ideja FDTD (stacked grid, leapfrog time-stepping)
-* prednosti metode: dobiš točno sliko v času z vsemi prehodnimi pojavi zraven
-* slabosti: zna biti požrešna s spominom --) ker rabiš določeno število pik na valovno dolžino, so velikosti vzorcev, ki jih lahko simuliraš, omejene. 
-* prilagoditev celice za anizotropne materiale (tekoči kristali)
-* moja prilagoditev za frekvenčno disperzijo: ADE --) simuliranje permitivnosti realnih kovin z plazemskim modelom, Drudejevim modelom in Drude-Lorentzovim modelom
-* moja prilagoditev za frekvenčno disperzijo -- anizotropno --) simuliranje neg. n anizotropnih materialov
-
-% \subsection{Modelling of liquid crystals -- Landau-de Gennes methods}
-* free energy minimisation relaxation algorithms 
-* Lattice Boltzmann methods? Najbrž bolj ne ... 
+% * zakaj se tega lotevamo v glavnem numerično: * zahtevni robni pogoji (komplicirana geometrija)
+%                                               * materiali z netrivialnimi optičnimi lastnostmi (absorpcija, anizotropija)
+% %
+% % \subsection{FDTD}
+% * finite difference: approximate the derivatives with finite differences (a discretization method)
+% * time-domain: pokrije široko frekvenčno območje (prehodne pojave) z eno simulacijo (realna propagacija v času)
+% * Yee in osnovna ideja FDTD (stacked grid, leapfrog time-stepping)
+% * prednosti metode: dobiš točno sliko v času z vsemi prehodnimi pojavi zraven
+% * slabosti: zna biti požrešna s spominom --) ker rabiš določeno število pik na valovno dolžino, so velikosti vzorcev, ki jih lahko simuliraš, omejene. 
+% * prilagoditev celice za anizotropne materiale (tekoči kristali)
+% * moja prilagoditev za frekvenčno disperzijo: ADE --) simuliranje permitivnosti realnih kovin z plazemskim modelom, Drudejevim modelom in Drude-Lorentzovim modelom
+% * moja prilagoditev za frekvenčno disperzijo -- anizotropno --) simuliranje neg. n anizotropnih materialov
+% 
+% % \subsection{Modelling of liquid crystals -- Landau-de Gennes methods}
+% * free energy minimisation relaxation algorithms 
+% * Lattice Boltzmann methods? Najbrž bolj ne ... 
 % 0.5 page
 % 
 %
@@ -189,10 +215,10 @@ We would like to cooperate with \ldots (našteješ vse, ki se jih spomniš (?))
 % ----- Light propagation through photonic strutures ---
 %
 % 0.25 pages
-* Refraction on the boundary between vacuum and anisotropic homogeneous metamaterial
-* spatially modulated meta-liquid-crystal structures: xy -- primerjava optičnih lastnosti z že obstoječimi holesteričnimi tekočimi kristali
-* spatially modulated meta-liquid-crystal structures: xz -- kot zanimivost
-* spatially modulated other negative-n structures
+% * Refraction on the boundary between vacuum and anisotropic homogeneous metamaterial
+% * spatially modulated meta-liquid-crystal structures: xy -- primerjava optičnih lastnosti z že obstoječimi holesteričnimi tekočimi kristali
+% * spatially modulated meta-liquid-crystal structures: xz -- kot zanimivost
+% * spatially modulated other negative-n structures
 
 % \subsection{Spatially modulated meta-liquid-crystal structures}
 % liquid crystals as photonic crystals (xy-cholesterics, xz structures)
@@ -200,21 +226,21 @@ We would like to cooperate with \ldots (našteješ vse, ki se jih spomniš (?))
 % Photonic crystals, periodic systems
 % spatially modulated structures (wacky propagation)
 %
-% \subsection{Platelets}
-% 0.5 page
-As some orientations of the colloid are more favourable in terms of free energy, the horseshoe colloids might, as the theoretical studies of J. Aplinc \cite{jure-HS} show, self-assemble in 2D and 3D crystals. 
-The analysis of the interplay between the influences of the geometry of such a photonic crystal and the optical parameters of the materials used provides a rich case of study. 
-Since the optical parameters are highly dependent on the frequency of light, diverse response is achieved across different wavelengths. 
-Experimental realisation of these ideas would be explored in the team of prof. Muševič, group F5 on JSI. 
-
-% \subsection{Waveguiding}
-% 0.25 pages
-
-In cooperation with prof. Etienne Brasselet from University of Bordeaux, different proposals for waveguides, filled with liquid crystals, will be simulated and analysed theoretically. 
-Through different boundary conditions and other manipulation, different director profiles can be introduced into the liquid crystal, which can in turn affect the propagation of light. 
-With some director profiles we can achieve focusing; special emphasis will be put on the director profiles which exhibit focusing for positive anisotropy ($n_{o} < n_e$).
-% work with Brasselet
+% % \subsection{Platelets}
+% % 0.5 page
+% As some orientations of the colloid are more favourable in terms of free energy, the horseshoe colloids might, as the theoretical studies of J. Aplinc \cite{jure-HS} show, self-assemble in 2D and 3D crystals. 
+% The analysis of the interplay between the influences of the geometry of such a photonic crystal and the optical parameters of the materials used provides a rich case of study. 
+% Since the optical parameters are highly dependent on the frequency of light, diverse response is achieved across different wavelengths. 
+% Experimental realisation of these ideas would be explored in the team of prof. Muševič, group F5 on JSI. 
 % 
+% % \subsection{Waveguiding}
+% % 0.25 pages
+% 
+% In cooperation with prof. Etienne Brasselet from University of Bordeaux, different proposals for waveguides, filled with liquid crystals, will be simulated and analysed theoretically. 
+% Through different boundary conditions and other manipulation, different director profiles can be introduced into the liquid crystal, which can in turn affect the propagation of light. 
+% With some director profiles we can achieve focusing; special emphasis will be put on the director profiles which exhibit focusing for positive anisotropy ($n_{o} < n_e$).
+% % work with Brasselet
+% % 
 %
 %
 %
