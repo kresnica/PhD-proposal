@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.27)  27 MAR 2017 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.27)  27 MAR 2017 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,52 +436,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 101.
  [2]
-
-LaTeX Warning: Citation `dd' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Citation `1' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `2' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `3' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `' on page 3 undefined on input line 134.
-
-
-LaTeX Warning: Citation `cc' on page 3 undefined on input line 136.
-
-
-LaTeX Warning: Citation `jure-HS' on page 3 undefined on input line 139.
-
-[3] (./doktorska-tema-Anja.bbl [4] [5]) [6] (./doktorska-tema-Anja.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./doktorska-tema-Anja.bbl [3] [4]) [5] (./doktorska-tema-Anja.aux) ) 
 Here is how much of TeX's memory you used:
- 1142 strings out of 493013
- 14146 string characters out of 6139316
- 78671 words of memory out of 5000000
- 4714 multiletter control sequences out of 15000+600000
- 9149 words of font info for 32 fonts, out of 8000000 for 9000
+ 1134 strings out of 493013
+ 14125 string characters out of 6139316
+ 78679 words of memory out of 5000000
+ 4707 multiletter control sequences out of 15000+600000
+ 8841 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  24i,6n,32p,457b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb>
-Output written on doktorska-tema-Anja.pdf (6 pages, 117102 bytes).
+</usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb>
+Output written on doktorska-tema-Anja.pdf (5 pages, 106856 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

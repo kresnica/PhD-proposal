@@ -3,52 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: doktorska-tema-Anja.aux
 The style file: ieeetr.bst
 Database file #1: dispozicija.bib
-Warning--I didn't find a database entry for "dd"
-Warning--I didn't find a database entry for "1"
-Warning--I didn't find a database entry for "2"
-Warning--I didn't find a database entry for "3"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "cc"
 Warning--I didn't find a database entry for "jure-HS"
-You've used 24 entries,
+You've used 26 entries,
             1876 wiz_defined-function locations,
-            623 strings with 7987 characters,
-and the built_in function-call counts, 6091 in all, are:
-= -- 535
-> -- 365
+            631 strings with 8319 characters,
+and the built_in function-call counts, 6652 in all, are:
+= -- 587
+> -- 396
 < -- 0
-+ -- 130
-- -- 106
-* -- 428
-:= -- 929
-add.period$ -- 27
-call.type$ -- 24
-change.case$ -- 21
++ -- 141
+- -- 115
+* -- 466
+:= -- 1010
+add.period$ -- 29
+call.type$ -- 26
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 344
-empty$ -- 507
-format.name$ -- 106
-if$ -- 1484
+cite$ -- 26
+duplicate$ -- 378
+empty$ -- 551
+format.name$ -- 115
+if$ -- 1624
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 27
-newline$ -- 78
-num.names$ -- 24
-pop$ -- 79
+int.to.str$ -- 26
+missing$ -- 29
+newline$ -- 84
+num.names$ -- 26
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 224
+skip$ -- 250
 stack$ -- 0
-substring$ -- 148
-swap$ -- 152
+substring$ -- 164
+swap$ -- 170
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 42
-width$ -- 26
-write$ -- 236
-(There were 7 warnings)
+while$ -- 46
+width$ -- 28
+write$ -- 256
+(There was 1 warning)
