@@ -85,28 +85,27 @@ With applying voltage, the operational frequency of the metamaterial can be fine
 
 % KODA
 
-Optical propagation through metamaterials is very complicated due to different material effects and elaborate geometry boundary conditions. 
-In liquid crystals, the definite calculation of the flow of light is because of their complicated director field structures equally challenging.
+Propagation of light through metamaterials is very complex due to various material characteristics and elaborate geometries of its constituent parts. 
+In liquid crystals, the exact calculation of the flow of light can be, because of the complicated director field structures, equally challenging.
 With that in mind, numerical simulations are a viable tool in determining the response of such soft matter structures. 
-My thesis will be prepared with a code developed in our group. 
-It is based on FDTD with slight alterations. 
-FDTD (short for finite-difference time-domain) is a finite difference method, where the derivatives are approximated with finite differences, while the time-domain part means a wide range of frequencies can be covered with one simulation. (prehodni pojavi). 
-In FDTD, Maxwell's equations are integrated quite explicitly, which allows for simple implementation of different optical phaenomena such as nonlinearity. 
-Traditionally, FDTD is used in combination with Yee mesh, in which the components of electrical and magnetic fields are positioned in a cubic stacked grid and propagated in a leapfrog fashion in time. 
-Our code is adapted for optically anisotropic materials, as well as for frequency dispersive materials with the ADE (auxiliary differential equation) method. 
-As a model for frequency dispersive dielectric function, the plasma, Drude, and Lorentz models can be used. 
-We have also implemented the possibility of anisotropic and frequency dispersive materials in one. 
+The calculations for my thesis will be performed with computer code based on the FDTD method, which was implemented in our group.
+%FDTD (short for finite-difference time-domain) is a finite difference method, where the derivatives are approximated with finite differences, while the time-domain part means a wide range of frequencies can be covered with one simulation. (prehodni pojavi). 
+In FDTD (short for finite-difference time-domain) \cite{taflove1}, Maxwell's equations are integrated quite explicitly, which allows for straightforward implementation of different optical phenomena.
+The differential equations are integrated over Yee mesh, in which the components of electrical and magnetic fields are positioned in a cubic stacked grid and propagated in a leapfrog fashion in time. 
+Our code is adapted for optically anisotropic materials, as well as for anisotropic and frequency dispersive materials with the adapted ADE (auxiliary differential equation \cite{taflove1}) method. 
+As a model for frequency dispersive dielectric function of a material, the plasma, Drude, and Lorentz models can be used. 
+%We have also implemented the possibility of anisotropic and frequency dispersive materials in one. 
 
-While the main objective of this PhD is to explore the optical response of soft matter metamaterials, it is also crucial to take into account the relaxation of the liquid crystal by optical fields as well. 
-This will be done with free energy minimisation algorithms, namely the relaxation algorithm \cite{ravnik}, also incorporated in our group. 
+While the main objective of this PhD is to explore the optical response of soft matter metamaterials, it is essential to take into account the relaxation of the liquid crystal because of the optical electric fields as well. 
+This will be done with free energy minimisation algorithms, namely the relaxation algorithm \cite{ravnik-2009-lc-modelling}, also incorporated in our group. 
 The code takes into account different time scales of the light propagation ($\approx \mathrm{ps}$) and relaxation ($\approx \mathrm{ms}$). 
 
 % REFRACTION INTO HYPERBOLIC METAMATERIALS
 
-With these powerful tools we will examine several theoretical and experimental example cases of soft-matter metamaterials. 
+With these tools we will consider several theoretical and experimental examples of soft matter metamaterials. 
 As a model case we will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs: liquid-crystal like metamaterials. 
-Firstly we will be interested in a case on refraction from vacuum into a system with optical axis homogeneous across the material and tilted with respect to the metamaterial boundary. 
-As an upgrade of this systems, examples with periodic modulation of the director profile will be examined. 
+Firstly we will be interested in a case of refraction from vacuum into a system with optical axis homogeneous across the material and tilted with respect to the metamaterial boundary. 
+As an upgrade of these systems, examples with periodic modulation of the director profile will be examined. 
 As a comparison with the already existing cholesteric positive-$n$ systems (the optical axis is twisting in the plane of the incoming plane wave), we will explore cholesteric hyperbolic metamaterial systems with some of the permittivity eigenvalues negative and compare results with the all-positive case. 
 We will be especially interested in the Bragg-reflective regime for circularly polarised light. 
 Additionally, we will perform calculations for the propagation of light perpendicularly to the optical axis, for which no clear theoretical framework is established. 

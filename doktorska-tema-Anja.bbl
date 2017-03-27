@@ -107,4 +107,13 @@ O.~Buchnev, N.~Podoliak, M.~Kaczmarek, N.~I. Zheludev, and V.~A. Fedotov,
   {Liquid} {Crystal:} {Toward} {Multifunctional} {Photonic} {Switch},'' {\em
   Adv. Opt. Mater.}, vol.~3, p.~674, 2015.
 
+\bibitem{taflove1}
+A.~Taflove and S.~C. Hagness, {\em Computational Electrodynamics: The
+  Finite-Difference Time-Domain Method}.
+\newblock Artech House, Norwood, 2005.
+
+\bibitem{ravnik-2009-lc-modelling}
+M.~Ravnik and S.~Žumer, ``Landau–de {Gennes} modelling of nematic liquid
+  crystal colloids,'' {\em Liq. Cryst.}, vol.~36, p.~1201, 2009.
+
 \end{thebibliography}
