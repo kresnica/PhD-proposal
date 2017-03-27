@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.21)  27 MAR 2017 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.21)  27 MAR 2017 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -427,81 +427,63 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
-
-LaTeX Warning: Citation `gja' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `koak' on page 1 undefined on input line 54.
-
-
-LaTeX Warning: Citation `pwqo' on page 1 undefined on input line 56.
-
-
-LaTeX Warning: Citation `lal' on page 1 undefined on input line 58.
-
-
-LaTeX Warning: Citation `ei' on page 1 undefined on input line 58.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `tartan' on page 2 undefined on input line 75.
-
-
-LaTeX Warning: Citation `khoo' on page 2 undefined on input line 78.
+LaTeX Warning: Citation `tartan' on page 2 undefined on input line 66.
 
 
 LaTeX Warning: Citation `ponsinet-virginie?' on page 2 undefined on input line 
-79.
+70.
 
 
-LaTeX Warning: Citation `nanoparticles' on page 2 undefined on input line 81.
+LaTeX Warning: Citation `nanoparticles' on page 2 undefined on input line 72.
 
 
-LaTeX Warning: Citation `shadrivov' on page 2 undefined on input line 82.
-
-
-LaTeX Warning: Citation `1' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `2' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `3' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `' on page 2 undefined on input line 88.
-
-
-LaTeX Warning: Citation `cc' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation `dd' on page 2 undefined on input line 95.
+LaTeX Warning: Citation `shadrivov' on page 2 undefined on input line 73.
 
 [2]
 
-LaTeX Warning: Citation `ravnik' on page 3 undefined on input line 113.
+LaTeX Warning: Citation `ravnik' on page 3 undefined on input line 96.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 114.
+(Font)              <10.95> on input line 97.
+
+LaTeX Warning: Citation `dd' on page 3 undefined on input line 115.
+
 [3]
 
-LaTeX Warning: Citation `jure-HS' on page 4 undefined on input line 139.
+LaTeX Warning: Citation `1' on page 4 undefined on input line 130.
 
-(./doktorska-tema-Anja.bbl [4] [5]) [6] (./doktorska-tema-Anja.aux)
+
+LaTeX Warning: Citation `2' on page 4 undefined on input line 130.
+
+
+LaTeX Warning: Citation `3' on page 4 undefined on input line 130.
+
+
+LaTeX Warning: Citation `' on page 4 undefined on input line 130.
+
+
+LaTeX Warning: Citation `cc' on page 4 undefined on input line 132.
+
+
+LaTeX Warning: Citation `jure-HS' on page 4 undefined on input line 135.
+
+(./doktorska-tema-Anja.bbl [4]) [5] (./doktorska-tema-Anja.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1163 strings out of 494374
- 14790 string characters out of 6164953
- 74214 words of memory out of 5000000
- 4512 multiletter control sequences out of 15000+600000
+ 1137 strings out of 494374
+ 14193 string characters out of 6164953
+ 75134 words of memory out of 5000000
+ 4486 multiletter control sequences out of 15000+600000
  9149 words of font info for 32 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 24i,6n,32p,332b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,6n,32p,457b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -511,10 +493,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb>
-Output written on doktorska-tema-Anja.pdf (6 pages, 119457 bytes).
+Output written on doktorska-tema-Anja.pdf (5 pages, 114034 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,40 +9,6 @@ P.~G. de~Gennes and J.~Prost, {\em The Physics of Liquid Crystals, Second
 E.~Hecht, {\em Optics}.
 \newblock Addison-Wesley Longman, 2002.
 
-\bibitem{tanaka-lc-memory-porous}
-T.~Araki, M.~Buscaglia, T.~Bellini, and H.~Tanaka, ``Memory and topological
-  frustration in nematic liquid crystals confined in porous materials,'' {\em
-  Nat. Mater.}, vol.~10, p.~303, 2011.
-
-\bibitem{musevic-2013-assembly}
-A.~Nych, U.~Ognysta, M.~Škarabot, M.~Ravnik, S.~Žumer, and I.~Muševič,
-  ``Assembly and control of 3d nematic dipolar colloidal crystals,'' {\em Nat.
-  Commun.}, vol.~4, p.~1489, 2013.
-
-\bibitem{smalyukh-2009-assembly}
-C.~P. Lapointe, T.~G. Mason, and I.~I. Smalyukh, ``Shape-controlled {Colloidal}
-  {Interactions} in {Nematic} {Liquid} {Crystals},'' {\em Science}, vol.~326,
-  p.~1083, 2009.
-
-\bibitem{zumer-2012-colloidal-assembly}
-J.~Dontabhaktuni, M.~Ravnik, and S.~Žumer, ``Shape-tuning the colloidal
-  assemblies in nematic liquid crystals,'' {\em Soft Matter}, vol.~8, p.~1657,
-  2012.
-
-\bibitem{kitzerow-2014-lc-fibre}
-M.~Wahle and H.-S. Kitzerow, ``Liquid crystal assisted optical fibres,'' {\em
-  Opt. Express}, vol.~22, p.~262, 2014.
-
-\bibitem{zografopoulos-2012-lc-fibre}
-D.~C. Zografopoulos, R.~Asquini, E.~E. Kriezis, A.~d'Alessandro, and
-  R.~Beccherelli, ``Guided-wave liquid-crystal photonics,'' {\em Lab Chip},
-  vol.~12, p.~3598, 2012.
-
-\bibitem{cancula-2016-waveguiding}
-M.~Čančula, M.~Ravnik, I.~Muševič, and S.~Žumer, ``Liquid microlenses and
-  waveguides from bulk nematic birefringent profiles,'' {\em Opt. Express},
-  vol.~24, p.~22177, 2016.
-
 \bibitem{wegener-2011-nature-review}
 C.~M. Soukoulis and M.~Wegener, ``Past achievements and future challenges in
   the development of three-dimensional photonic metamaterials,'' {\em N.
@@ -58,102 +24,36 @@ J.~Valentine, S.~Zhang, T.~Zentgraf, E.~Ulin-Avila, D.~A. Genov, G.~Bartal, and
   X.~Zhang, ``Three-dimensional optical metamaterial with a negative refractive
   index,'' {\em Nature}, vol.~455, p.~376, 2008.
 
-\bibitem{zhang-2015-skin-cloak}
-X.~Ni, Z.~J. Wong, M.~Mrejen, Y.~Wang, and X.~Zhang, ``An ultrathin
-  invisibility skin cloak for visible light,'' {\em Science}, vol.~349,
-  p.~1310, 2015.
-
 \bibitem{capasso-2016-metalens}
 M.~Khorasaninejad, W.~T. Chen, R.~C. Devlin, J.~Oh, A.~Y. Zhu, and F.~Capasso,
   ``Metalenses at visible wavelengths: {Diffraction-limited} focusing and
   subwavelength resolution imaging,'' {\em Science}, vol.~352, p.~1190, 2016.
 
-\bibitem{capasso-2014-flat-optics-metasurface}
-N.~Yu and F.~Capasso, ``Flat optics with designer metasurfaces,'' {\em Nat.
-  Mater.}, vol.~13, p.~139, 2014.
-
-\bibitem{padilla-2012-mtm-absorbers}
-C.~M. Watts, X.~Liu, and W.~J. Padilla, ``Metamaterial electromagnetic wave
-  absorbers,'' {\em Adv. Mater.}, vol.~24, 2012.
-
-\bibitem{meinzer-2014-metasurface}
-N.~Meinzer, W.~L. Barnes, and I.~R. Hooper, ``Plasmonic meta-atoms and
-  metasurfaces,'' {\em Nature Photon.}, vol.~8, p.~889, 2014.
+\bibitem{zhang-2015-skin-cloak}
+X.~Ni, Z.~J. Wong, M.~Mrejen, Y.~Wang, and X.~Zhang, ``An ultrathin
+  invisibility skin cloak for visible light,'' {\em Science}, vol.~349,
+  p.~1310, 2015.
 
 \bibitem{jacob-2016-all-dielectric}
 S.~Jahani and Z.~Jacob, ``All-dielectric metamaterials,'' {\em Nat.
   Nanotechnol.}, vol.~11, p.~23, 2016.
 
+\bibitem{capasso-2014-flat-optics-metasurface}
+N.~Yu and F.~Capasso, ``Flat optics with designer metasurfaces,'' {\em Nat.
+  Mater.}, vol.~13, p.~139, 2014.
+
 \bibitem{kivshar-2013-hyperbolic}
 A.~Poddubny, I.~Iorsh, P.~Belov, and Y.~Kivshar, ``Hyperbolic metamaterials,''
   {\em Nature Photon.}, vol.~7, p.~948, 2013.
 
+\bibitem{khoo}
+I.~C. Khoo, D.~H. Werner, X.~Liang, A.~Diaz, and B.~Weiner, ``Nanosphere
+  dispersed liquid crystals for tunable negative-zero-positive index of
+  refraction in the optical and terahertz regimes,'' {\em Opt. Lett.}, vol.~31,
+  p.~2592, 2006.
+
 \bibitem{ozaki-2016-patterned-lc}
 J.~Kobashi, H.~Yoshida, and M.~Ozaki, ``Planar optics with patterned chiral
   liquid crystals,'' {\em Nature Photon.}, vol.~10, p.~389, 2016.
-
-\bibitem{lavrentovich-2006-lc-neg}
-O.~P. Pishnyak and O.~D. Lavrentovich, ``Electrically controlled negative
-  refraction in a nematic liquid crystal,'' {\em Appl. Phys. Lett.}, vol.~89,
-  p.~251103, 2006.
-
-\bibitem{assanto-2007-nematicons-lc-neg}
-M.~Peccianti and G.~Assanto, ``Nematicons across interfaces: anomalous
-  refraction and reflection of solitons in liquid crystals,'' {\em Opt.
-  Express}, vol.~15, p.~8021, 2007.
-
-\bibitem{tartan-2017-dlw}
-C.~C. Tartan, P.~S. Salter, T.~D. Wilkinson, M.~J. Booth, S.~M. Morris, and
-  S.~J. Elston, ``Generation of 3-dimensional polymer structures in liquid
-  crystalline devices using direct laser writing,'' {\em RSC Adv.}, vol.~7,
-  p.~507, 2017.
-
-\bibitem{xuan-2013-nanoparticle-lc}
-D.~Jia, C.~Yang, X.~Li, Z.~Peng, Y.~Liu, Z.~Cao, Q.~Mu, L.~Hu, D.~Li, L.~Yao,
-  X.~Lu, X.~Xiang, H.~Zhang, and L.~Xuan, ``Optical hyperbolic metamaterials
-  based on nanoparticles doped liquid crystals,'' {\em Liq. Cryst.}, vol.~41,
-  p.~207, 2013.
-
-\bibitem{khoo-2014-nanoparticle-lc}
-G.~Pawlik, K.~Tarnowski, W.~Walasik, C.~Mitus, and I.~Khoo, ``Liquid crystal
-  hyperbolic metamaterial for wide-angle negative-positive refraction and
-  reflection,'' {\em Opt. Lett.}, vol.~39, p.~1744, 2014.
-
-\bibitem{lavrentovich-2008-gold-nanorods}
-H.~Park, A.~Agarwal, N.~A. Kotov, and O.~D. Lavrentovich, ``Controllable
-  side-by-side and end-to-end assembly of au nanorods by lyotropic chromonic
-  materials,'' {\em Langmuir}, vol.~24, 2008.
-
-\bibitem{smalyukh-2010-self-alignment}
-Q.~Liu, Y.~Cui, D.~Gardner, X.~Li, S.~He, and I.~I. Smalyukh, ``Self-alignment
-  of plasmonic gold nanorods in rocnfigurable anisotropic fluids for tunable
-  bulk metamaterial applications,'' {\em Nano Lett.}, vol.~10, 2010.
-
-\bibitem{lavrentovich-2009-nanorods}
-A.~B. Golovin and O.~D. Lavrentovich, ``Electrically reconfigurable optical
-  metamaterial based on colloidal dispersion of metal nanorods in dielectric
-  fluid,'' {\em Applied Physics Letters}, vol.~95, no.~25, p.~254104, 2009.
-
-\bibitem{shadrivov-2016-meta-liquid-crystal}
-M.~Liu, K.~Fan, W.~Padilla, D.~A. Powell, X.~Zhang, and I.~V. Shadrivov,
-  ``Tunable {Meta-Liquid} {Crystals},'' {\em Adv. Mater.}, vol.~28, p.~1553,
-  2016.
-
-\bibitem{goodby-2011-lc-gold-mtm}
-M.~Draper, I.~M. Saez, S.~J. Cowling, P.~Gai, B.~Heinrich, B.~Donnio,
-  D.~Guillon, and J.~W. Goodby, ``Self-assembly and {Shape} {Morphology} of
-  {Liquid} {Crystalline} {Gold} {Metamaterials},'' {\em Adv. Funct. Mater.},
-  vol.~21, p.~1260, 2011.
-
-\bibitem{buchnev-2015-lc-mtm-switch}
-O.~Buchnev, N.~Podoliak, M.~Kaczmarek, N.~I. Zheludev, and V.~A. Fedotov,
-  ``Electrically {Controlled} {Nanostructured} {Metasurface} {Loaded} with
-  {Liquid} {Crystal:} {Toward} {Multifunctional} {Photonic} {Switch},'' {\em
-  Adv. Opt. Mater.}, vol.~3, p.~674, 2015.
-
-\bibitem{zhang-2007-lc-mtm-tuning}
-Q.~Zhao, L.~Kang, B.~Du, J.~Zhou, H.~Tang, X.~Liang, and B.~Zhang,
-  ``Electrically tunable negative permeability metamaterials based on nematic
-  liquid crystals,'' {\em Appl. Phys. Lett.}, vol.~90, 2007.
 
 \end{thebibliography}
