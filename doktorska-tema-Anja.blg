@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: doktorska-tema-Anja.aux
 The style file: ieeetr.bst
 Database file #1: dispozicija.bib
-Warning--I didn't find a database entry for "jure-HS"
-You've used 26 entries,
+You've used 33 entries,
             1876 wiz_defined-function locations,
-            631 strings with 8319 characters,
-and the built_in function-call counts, 6652 in all, are:
-= -- 587
-> -- 396
+            663 strings with 9528 characters,
+and the built_in function-call counts, 8929 in all, are:
+= -- 812
+> -- 509
 < -- 0
-+ -- 141
-- -- 115
-* -- 466
-:= -- 1010
-add.period$ -- 29
-call.type$ -- 26
-change.case$ -- 23
++ -- 181
+- -- 148
+* -- 629
+:= -- 1329
+add.period$ -- 36
+call.type$ -- 33
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 378
-empty$ -- 551
-format.name$ -- 115
-if$ -- 1624
+cite$ -- 33
+duplicate$ -- 503
+empty$ -- 730
+format.name$ -- 148
+if$ -- 2185
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 29
-newline$ -- 84
-num.names$ -- 26
-pop$ -- 85
+int.to.str$ -- 33
+missing$ -- 36
+newline$ -- 105
+num.names$ -- 33
+pop$ -- 100
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 354
 stack$ -- 0
-substring$ -- 164
-swap$ -- 170
+substring$ -- 292
+swap$ -- 239
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 46
-width$ -- 28
-write$ -- 256
-(There was 1 warning)
+while$ -- 66
+width$ -- 35
+write$ -- 329

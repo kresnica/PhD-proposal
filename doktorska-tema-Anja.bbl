@@ -1,14 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{degennes}
-P.~G. de~Gennes and J.~Prost, {\em The Physics of Liquid Crystals, Second
-  Edition}.
-\newblock Oxford University Press, 1995.
-
-\bibitem{hecht-optics}
-E.~Hecht, {\em Optics}.
-\newblock Addison-Wesley Longman, 2002.
-
 \bibitem{wegener-2011-nature-review}
 C.~M. Soukoulis and M.~Wegener, ``Past achievements and future challenges in
   the development of three-dimensional photonic metamaterials,'' {\em N.
@@ -46,6 +37,53 @@ N.~Yu and F.~Capasso, ``Flat optics with designer metasurfaces,'' {\em Nat.
 A.~Poddubny, I.~Iorsh, P.~Belov, and Y.~Kivshar, ``Hyperbolic metamaterials,''
   {\em Nature Photon.}, vol.~7, p.~948, 2013.
 
+\bibitem{degennes}
+P.~G. de~Gennes and J.~Prost, {\em The Physics of Liquid Crystals, Second
+  Edition}.
+\newblock Oxford University Press, 1995.
+
+\bibitem{hecht-optics}
+E.~Hecht, {\em Optics}.
+\newblock Addison-Wesley Longman, 2002.
+
+\bibitem{musevic-2013-colloidal-crystal}
+A.~Nych, U.~Ognysta, M.~Škarabot, M.~Ravnik, S.~Žumer, and I.~Muševič,
+  ``Assembly and control of 3d nematic dipolar colloidal crystals,'' {\em Nat.
+  Commun.}, vol.~4, p.~1489, 2013.
+
+\bibitem{smalyukh-2014-knots}
+A.~Martinez, M.~Ravnik, B.~Lucero, R.~Visvanathan, S.~Žumer, and I.~I.
+  Smalyukh, ``Mutually tangled colloidal knots and induced defect loops in
+  nematic fields,'' {\em Nat. Mater.}, vol.~13, p.~258, 2014.
+
+\bibitem{zumer-2014-knots}
+D.~Seč, S.~Čopar, and S.~Žumer, ``Topological zoo of free-standing knots in
+  confined chiral nematic fluids,'' {\em Nat. Commun.}, vol.~5, p.~3057, 2014.
+
+\bibitem{yeomans-2013-lc-microfluidics}
+A.~Sengupta, U.~Tkalec, M.~Ravnik, J.~Yeomans, C.~Bahr, and S.~Herminghaus,
+  ``Liquid {Crystal} {Microfluidics} for {Tunable} {Flow} {Shaping},'' {\em
+  Phys. Rev. Lett.}, vol.~110, p.~048303, 2013.
+
+\bibitem{abbott-2013-sensing}
+R.~J. Carlton, J.~T. Hunter, D.~S. Miller, R.~Abbasi, P.~C. Mushenheim, L.~N.
+  Tan, and N.~L. Abbott, ``Chemical and biological sensing using liquid
+  crystals,'' {\em Liquid crystals reviews}, vol.~1, no.~1, pp.~29--51, 2013.
+
+\bibitem{lin-2011-lensing}
+H.-C. Lin, M.-S. Chen, and Y.-H. Lin, ``A review of electrically tunable
+  focusing liquid crystal lenses,'' {\em Transactions on Electrical and
+  Electronic Materials}, vol.~12, no.~6, pp.~234--240, 2011.
+
+\bibitem{kitzerow-2014-fibres}
+M.~Wahle and H.-S. Kitzerow, ``Liquid crystal assisted optical fibres,'' {\em
+  Optics express}, vol.~22, no.~1, pp.~262--273, 2014.
+
+\bibitem{humar-2016-lasing}
+M.~Humar, F.~Araoka, H.~Takezoe, and I.~Muševič, ``Lasing properties of
+  polymerized chiral nematic {Bragg} onion microlasers,'' {\em Opt. Express},
+  vol.~24, p.~19237, 2016.
+
 \bibitem{lavrentovich-2006-lc-neg}
 O.~P. Pishnyak and O.~D. Lavrentovich, ``Electrically controlled negative
   refraction in a nematic liquid crystal,'' {\em Appl. Phys. Lett.}, vol.~89,
@@ -81,10 +119,6 @@ G.~Pawlik, K.~Tarnowski, W.~Walasik, C.~Mitus, and I.~Khoo, ``Liquid crystal
   hyperbolic metamaterial for wide-angle negative-positive refraction and
   reflection,'' {\em Opt. Lett.}, vol.~39, p.~1744, 2014.
 
-\bibitem{ponsinet-2016-lc-assembly}
-A.~Baron, A.~Aradian, V.~Ponsinet, and P.~Barois, ``Self-assembled optical
-  metamaterials,'' {\em Optics and Laser Technology}, vol.~82, p.~94, 2016.
-
 \bibitem{goodby-2011-lc-gold-mtm}
 M.~Draper, I.~M. Saez, S.~J. Cowling, P.~Gai, B.~Heinrich, B.~Donnio,
   D.~Guillon, and J.~W. Goodby, ``Self-assembly and {Shape} {Morphology} of
@@ -107,15 +141,6 @@ O.~Buchnev, N.~Podoliak, M.~Kaczmarek, N.~I. Zheludev, and V.~A. Fedotov,
   {Liquid} {Crystal:} {Toward} {Multifunctional} {Photonic} {Switch},'' {\em
   Adv. Opt. Mater.}, vol.~3, p.~674, 2015.
 
-\bibitem{taflove1}
-A.~Taflove and S.~C. Hagness, {\em Computational Electrodynamics: The
-  Finite-Difference Time-Domain Method}.
-\newblock Artech House, Norwood, 2005.
-
-\bibitem{ravnik-2009-lc-modelling}
-M.~Ravnik and S.~Žumer, ``Landau–de {Gennes} modelling of nematic liquid
-  crystal colloids,'' {\em Liq. Cryst.}, vol.~36, p.~1201, 2009.
-
 \bibitem{smalyukh-2009-assembly}
 C.~P. Lapointe, T.~G. Mason, and I.~I. Smalyukh, ``Shape-controlled {Colloidal}
   {Interactions} in {Nematic} {Liquid} {Crystals},'' {\em Science}, vol.~326,
@@ -125,5 +150,14 @@ C.~P. Lapointe, T.~G. Mason, and I.~I. Smalyukh, ``Shape-controlled {Colloidal}
 A.~Nych, U.~Ognysta, M.~Škarabot, M.~Ravnik, S.~Žumer, and I.~Muševič,
   ``Assembly and control of 3d nematic dipolar colloidal crystals,'' {\em Nat.
   Commun.}, vol.~4, p.~1489, 2013.
+
+\bibitem{taflove1}
+A.~Taflove and S.~C. Hagness, {\em Computational Electrodynamics: The
+  Finite-Difference Time-Domain Method}.
+\newblock Artech House, Norwood, 2005.
+
+\bibitem{ravnik-2009-lc-modelling}
+M.~Ravnik and S.~Žumer, ``Landau–de {Gennes} modelling of nematic liquid
+  crystal colloids,'' {\em Liq. Cryst.}, vol.~36, p.~1201, 2009.
 
 \end{thebibliography}

@@ -5,7 +5,7 @@
 \usepackage{setspace}
 
 %opening
-\title{\huge{Soft matter metamaterials}}
+\title{\huge{Flow of light in metamaterials based on complex nematic fluids}}
 \author{Author: Anja Bregar \and Advisor: Miha Ravnik}
 
 \begin{document}
@@ -24,11 +24,27 @@
 %
 
 
+% METAMATERIALS
+
+
+Optical metamaterials are a fascinating segment of materials science and are characterised by their extraordinary optical properties \cite{wegener-2011-nature-review}.
+%(We would have to add that the concept of metamaterials applies to any kind of waves; besides optical waves, also elastic or acoustic waves come into play). 
+The defining feature of metamaterials is their man-made composition: they are built in periodic unit cells with periodicity generally several times smaller than the wavelength of operating light waves, with the intent of light propagating through the material as if the material was homogeneous. 
+However, since the specific geometric characteristics and the material composition of the periodic building blocks can be adjusted, the optical response of such a composite can be, to an extent, engineered. 
+Since the early 2000s, the field of metamaterials' research has expanded to many different areas of investigation. 
+The central interest at the beginning was to obtain materials which could produce negative refractive index for light in some chosen range of wavelengths, which has been experimentally observed for wavelengths from infrared to optical \cite{schultz-2000-first-mtm,zhang-2008-fishnet}. 
+With negative-index materials, some attractive applications have been constructed, for instance lenses with subwavelength resolution or invisibility cloaks \cite{capasso-2016-metalens,zhang-2015-skin-cloak}. 
+But because of the high losses inside metals at optical frequencies and fabrication difficulties, the incentive has lately moved from producing bulk metamaterials with metallic components towards other options, like metamaterials made from dielectrics \cite{jacob-2016-all-dielectric}, which have lower losses, and metasurfaces -- 2D metamaterials \cite{capasso-2014-flat-optics-metasurface}. 
+With metasurfaces, it is possible to precisely shape the wavefront -- design the phase and polarisation -- of the transmitted light \cite{capasso-2014-flat-optics-metasurface}, and use them as selective absorbers. 
+While it is difficult to construct optically perfectly isotropic metamaterials, the anisotropy has also been exploited in the field of hyperbolic metamaterials \cite{kivshar-2013-hyperbolic}, which have an anisotropic permittivity tensor with some eigenvalues negative. 
+With it, negative refraction of the Poynting vector can also be achieved without the need for negative permeability.
+
+
+
 % LIQUID CRYSTALS
 
-Liquid crystals are soft materials, which in a range of temperatures and molecular concentrations posess a degree of orientational order in contrast to their positional disorder \cite{degennes}. 
-This is typically achieved by the molecules of liquid crystal being elongated in one direction.  
-They have proven to be an important material in soft matter physics with many possibilities for applications in different industries, notably in liquid crystal displays.
+Liquid crystals are another major family of optical materials, today used widely in various optic and photonic applications, especially displayes. 
+They are soft materials made from rod-like molecules, which in a range of temperatures and molecular concentrations posess a degree of orientational order in contrast to their positional disorder \cite{degennes}. 
 Their orientational order is the origin of several other characteristics. 
 One of them is their anisotropic elasticity: the free energy of liquid crystals increases, if -- because of external fields or boundary conditions -- their orientational order is disturbed. 
 The structural and spatially dependent forces, which arise from that account, generate a plethora of field structures and ordering phenomena. 
@@ -36,24 +52,43 @@ The structural and spatially dependent forces, which arise from that account, ge
 Furthermore, their orientational order implies optical anisotropy \cite{hecht-optics}: mostly, liquid crystals possess an extraordinary index of refraction (along the long axis of the molecules) larger than the ordinary index. 
 Their optical birefringence is an noteworthy tool in the control of flow-of-light in optical systems. 
 Since liquid crystals are also relatively easily manipulated with external fields, especially electric field, which tends to turn the long axis of the liquid crystal molecules to be polarized along the field, the elastic and optical properties can be well controlled.
+{\bfseries Today, liquid crystals are explored in various directions, such as the controlled assembly of colloidal crystals \cite{musevic-2013-colloidal-crystal}, research of complex topological states \cite{smalyukh-2014-knots,zumer-2014-knots} and microfluidics \cite{yeomans-2013-lc-microfluidics}.
+In the broader context of photonics, diverse applications lie in the fields of sensing \cite{abbott-2013-sensing}, tunable lenses \cite{lin-2011-lensing}, tunable waveguides \cite{kitzerow-2014-fibres}, and tunable lasers \cite{humar-2016-lasing}. }
+
+% * specifically in the context of assisted assembly of colloidal crystals [3]
+% 
+% * complex topological states [4,5]
+% 
+% * sensing \cite{abbott-2013-sensing} /lensing  applications [6]
+% 
+% * LC displays
+% 
+% * photonics 
+% 
+% {\bfseries Today LCs are explored inv arious directions,...such as DODAJ cca 5-10 citatov
+% 
+% * specifically in the context of assisted assembly of colloidal crystals [3]
+% 
+% * complex topological states [4,5]
+% 
+% * sensing applications [6]
+% 
+% * systems out of equiriblium: quench transitions [7], backflow effects [8], nematic flow in Poiseuille geometries [9,10]
+% 
+% * active nematics [14,15,16]
+% 
+% Miha Cancula: 
+% 
+% This possibility of changing
+% their optical properties via external fields gave rise to their widespread use in digital
+% displays [30] and other active optical elements, such as tunable lenses [42], tunable
+% waveguides [48] and tunable lasers [35]. Liquid crystals flow like liquids, which
+% enables complex interactions between microfluidics and the flow of light [86].
+% 
+% }
 %With the electric field, the elastic forces and the optical properties can be controlled. 
 
 
-
-% METAMATERIALS
-
-
-Optical metamaterials are another fascinating segment of materials science and are characterised by their extraordinary optical properties \cite{wegener-2011-nature-review}.
-%(We would have to add that the concept of metamaterials applies to any kind of waves; besides optical waves, also elastic or acoustic waves come into play). 
-The defining feature of metamaterials is their man-made composition: they are built in periodic unit cells with periodicity generally several times smaller than the wavelength of operating light waves, with the intent of light propagating through the material as if the material was homogeneous. 
-However, since the specific geometric characteristics and the material composition of the periodic building blocks can be adjusted, the optical response of such a composite can be, to an extent, engineered. 
-Since the early 2000s, the field of research has expanded to many different areas of investigation. 
-The central interest at the beginning was to obtain materials which could produce negative refractive index for light in some chosen range of wavelengths, which has been experimentally observed for wavelengths from infrared to optical \cite{schultz-2000-first-mtm,zhang-2008-fishnet}. 
-With negative-index materials, some attractive applications have been constructed, for instance lenses with subwavelength resolution or invisibility cloaks \cite{capasso-2016-metalens,zhang-2015-skin-cloak}. 
-But because of the high losses inside metals at optical frequencies and fabrication difficulties, the incentive has lately moved from producing bulk metamaterials with metallic components towards other options, like metamaterials made from dielectrics \cite{jacob-2016-all-dielectric}, which have lower losses, and metasurfaces -- 2D metamaterials \cite{capasso-2014-flat-optics-metasurface}. 
-With metasurfaces, it is possible to precisely shape the wavefront -- design the phase and polarisation -- of the transmitted light \cite{capasso-2014-flat-optics-metasurface}, and use them as selective absorbers. 
-While it is very difficult to construct optically perfectly isotropic metamaterials, the anisotropy has also been exploited in the field of hyperbolic metamaterials \cite{kivshar-2013-hyperbolic}, which have an anisotropic permittivity tensor with some eigenvalues negative. 
-With it, negative refraction of the Poynting vector can also be achieved without the need for negative permeability.
 
 % LC WITH MTM 
 
@@ -64,9 +99,9 @@ The fields of liquid crystals and metamaterials are intertwined in a number of e
 It is worth mentioning negative refraction is not limited to metamaterials: liquid crystals and other birefringent materials can refract light negatively, when the incoming angle of light is almost perpendicular \cite{lavrentovich-2006-lc-neg}.
 Cholesteric liquid crystal films have been used as metasurfaces because of their capability to efficiently control the phase of the transmitted light \cite{ozaki-2016-patterned-lc}.
 Liquid crystals have been used to achieve orientational or even to an extent positional ordering of metamaterial constituent parts: numerous experiments have been performed with golden nanorods ordering because of their prolong shape in connection with the elasticity of liquid crystals \cite{lavrentovich-2008-gold-nanorods,smalyukh-2010-self-alignment,lavrentovich-2009-nanorods}. 
-Numerical analysis has suggested that a material composed of metallic spheres, dispersed in liquid crystal, would have the eigenvalues of permittivity tensor differently signed \cite{xuan-2013-nanoparticle-lc,khoo-2014-nanoparticle-lc}. 
-Some experiments have been performed in that direction as well \cite{ponsinet-2016-lc-assembly,goodby-2011-lc-gold-mtm}. 
-% 
+Numerical analysis has suggested that a material composed of metallic spheres, dispersed in liquid crystal, would have the eigenvalues of permittivity tensor signed oppositely \cite{xuan-2013-nanoparticle-lc,khoo-2014-nanoparticle-lc}. 
+Experiments have been performed in that direction as well, which show that coated gold nanospheres dispersed in nematic liquid crystals have a negative ordinary and positive extraordinary eigenvalues of the permittivity tensor at low frequencies \cite{goodby-2011-lc-gold-mtm}. 
+% a
 % Another challenge in the field of metamaterials is the production of bulk metamaterials. 
 % In the past, the engineering of metamaterials has mostly taken the up-to-the-bottom approach, meaning that every building block has been specifically placed in its place, which is experimentally very difficult and renders many applications impractical. 
 %It would be very much desired to take a bottoms-up approach of self-arranging colloidal particles as in \cite{tartan-2017-dlw}. 
@@ -81,7 +116,64 @@ Some experiments have been performed in that direction as well \cite{ponsinet-20
 Another usage of liquid crystals inside metamaterials was to adjust the metamaterial properties with electric field. 
 With applying voltage, the operational frequency of the metamaterial can be fine-tuned \cite{zhang-2007-lc-mtm-tuning,shalaev-2007-tunable-lc}, and the liquid crystals can be used to switch between the on- and off-states of a metasurface \cite{buchnev-2015-lc-mtm-switch}. 
 
+{ \bfseries
+The motivation behind this thesis is to 
 
+% mnajka 1 odstavek problem identification..kaj so odprta vprasanja.
+% 
+% Motivacija je raziskati pomen opticne anizotropije na odziv metamtarail in po moznosti ustvariti controllable soft memtamaterial ki bo tunable .....
+% 
+% in sistemi s kolidnimi vkljucki, compelx nematic lahko to naredijo ....
+% 
+% In potem zakljucek da bo tvoj dr odgovor na to temo
+% 
+% Potem za tem odstavkom pa zacnes s stavkom.
+
+%The goal of this  thesis is to explore the ... Specifically we wil address ...
+}
+
+
+% REFRACTION INTO HYPERBOLIC METAMATERIALS
+
+We will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs: liquid-crystal like metamaterials. 
+We will be interested in a case of refraction from vacuum into a system with optical axis homogeneous across the material and tilted with respect to the metamaterial boundary. 
+As an upgrade of these systems, examples with periodic modulation of the director profile will be examined. 
+As a comparison with the already existing cholesteric positive-refractive-index systems, where the optical axis is twisting in the plane parallel to the material boundary, we will explore cholesteric hyperbolic metamaterial systems with some of the permittivity eigenvalues negative.
+We will be especially interested in the Bragg-reflective regime for circularly polarised light. 
+Additionally, we will perform calculations for the propagation of light at an angle with the optical axis, for which no clear theoretical framework has yet been established. 
+In general, we will model spatial modulation of frequency-dispersive permittivity tensor and explore possibilities for successful manouvering of light propagation.  
+
+% WAVEGUIDING 
+
+% A crucial reason why to control and manipulate light is to guide it. 
+% Many different applications, from photonic circuits to waveguides, all designed to convey information, rely on efficient control of light. 
+% An compelling option for waveguiding is to enhance their properties with liquid crystals. 
+% Liquid crystals can be used as an addition to the existing photonic-crystal-like waveguides \cite{dd}, where it has been shown they increase the performance of such structure by XX\%. 
+% If the photonic fibre is filled exclusively with liquid crystal, it can be used as a waveguide as well, since the refractive-index gradient controls the flow-of-light. 
+
+The control over the flow of light will be explored for materials with all-positive refractive index as well in the context of metamaterial applications, such as waveguides and lenses. 
+An appealing option for waveguiding is to enhance the properties of waveguides with liquid crystals. 
+In cooperation with prof. Etienne Brasselet from University of Bordeaux, different proposals for waveguides, filled with liquid crystals, will be simulated and analysed theoretically. 
+Through different boundary conditions and other manipulation, different director profiles can be introduced into the liquid crystal waveguide. 
+The modulation of the refractive index profile can in turn affect the propagation of light. 
+With some director profiles we can achieve focusing of selected incoming polarizations.
+Special emphasis will be put on the director profiles which exhibit focusing for positive anisotropy ($n_{o} < n_e$), so the structures are easily obtainable experimentally. 
+
+% ORDERING OF COLLOIDS
+
+
+% A way to engineer soft (meta-)materials is to combine liquid crystal with metallic colloids. 
+% The elasticity of liquid crystals affects the distribution and arrangement of colloids. 
+% The colloidal suspension in liquid crystals have been shown to be ordered because of the elasticity of liquid crystals \cite{1, 2, 3,}: 
+% Musevic and Smalyukh groups have experimentally shown the elastic forces between the defect structures to be strong enough to achieve orientational ordering of the (spatially anisotropic, i.e. square or triangular) colloids, and also to lower the free energy in such colloidal clusters by arranging. 
+% Theoretical work has been done by our group as well \cite{cc}. 
+
+To auto-compose a bulk metamaterial from bottom scales up, we would like to assess self-assembly of metallic colloids in liquid crystals.
+As some orientations of the colloidal particles are energetically more favourable because of nematic elastic energy \cite{smalyukh-2009-assembly,musevic-2013-assembly}, the horseshoe-shaped colloids might self-assemble in 2D and 3D photonic crystals. 
+The analysis of the interplay between the influences of the geometry of such a colloidal metamaterial and the optical parameters of the materials used for the colloids provides a rich case of study. 
+Comparison of metallic colloidal inclusions with dielectric ones also gives experimental diversity. 
+Since the optical parameters are highly dependent on the frequency of light, contrasting optical response is achieved across different wavelengths. 
+Experimental realisation of these ideas would be explored in possible collaboration with the group of prof. Muševič at JSI. 
 
 % KODA
 
@@ -100,48 +192,9 @@ While the main objective of this PhD is to explore the optical response of soft 
 This will be done with free energy minimisation algorithms, namely the relaxation algorithm \cite{ravnik-2009-lc-modelling}, also incorporated in our group. 
 The code takes into account different time scales of the light propagation ($\approx \mathrm{ps}$) and relaxation ($\approx \mathrm{ms}$). 
 
-% REFRACTION INTO HYPERBOLIC METAMATERIALS
+{ \bfseries To summarize, in the thesis we will consider conceptually different combinations of optical metamaterials and liquid crystals, linked together by the notion of optical anisotropy. 
+}
 
-With these tools we will consider several theoretical and experimental examples of soft matter metamaterials. 
-As a model case we will firstly explore optically anisotropic systems with the eigenvalues of the permittivity tensor with different signs: liquid-crystal like metamaterials. 
-Firstly we will be interested in a case of refraction from vacuum into a system with optical axis homogeneous across the material and tilted with respect to the metamaterial boundary. 
-As an upgrade of these systems, examples with periodic modulation of the director profile will be examined. 
-As a comparison with the already existing cholesteric positive-refractive-index systems, where the optical axis is twisting in the plane parallel to the material boundary, we will explore cholesteric hyperbolic metamaterial systems with some of the permittivity eigenvalues negative.
-We will be especially interested in the Bragg-reflective regime for circularly polarised light. 
-Additionally, we will perform calculations for the propagation of light at an angle with the optical axis, for which no clear theoretical framework has yet been established. 
-In general, we will model spatial modulation of frequency-dispersive permittivity tensor and explore possibilities for successful manouvering of light propagation.  
-
-% WAVEGUIDING 
-
-% A crucial reason why to control and manipulate light is to guide it. 
-% Many different applications, from photonic circuits to waveguides, all designed to convey information, rely on efficient control of light. 
-% An compelling option for waveguiding is to enhance their properties with liquid crystals. 
-% Liquid crystals can be used as an addition to the existing photonic-crystal-like waveguides \cite{dd}, where it has been shown they increase the performance of such structure by XX\%. 
-% If the photonic fibre is filled exclusively with liquid crystal, it can be used as a waveguide as well, since the refractive-index gradient controls the flow-of-light. 
-
-The control over the flow of light will be explored for materials with all-positive refractive index as well. 
-An appealing option for waveguiding is to enhance the properties of waveguides with liquid crystals. 
-In cooperation with prof. Etienne Brasselet from University of Bordeaux, different proposals for waveguides, filled with liquid crystals, will be simulated and analysed theoretically. 
-Through different boundary conditions and other manipulation, different director profiles can be introduced into the liquid crystal waveguide. 
-The modulation of the refractive index profile can in turn affect the propagation of light. 
-With some director profiles we can achieve focusing of selected incoming polarizations.
-Special emphasis will be put on the director profiles which exhibit focusing for positive anisotropy ($n_{o} < n_e$), so the structures are easily obtainable experimentally. 
-
-% ORDERING OF COLLOIDS
-
-
-% A way to engineer soft (meta-)materials is to combine liquid crystal with metallic colloids. 
-% The elasticity of liquid crystals affects the distribution and arrangement of colloids. 
-% The colloidal suspension in liquid crystals have been shown to be ordered because of the elasticity of liquid crystals \cite{1, 2, 3,}: 
-% Musevic and Smalyukh groups have experimentally shown the elastic forces between the defect structures to be strong enough to achieve orientational ordering of the (spatially anisotropic, i.e. square or triangular) colloids, and also to lower the free energy in such colloidal clusters by arranging. 
-% Theoretical work has been done by our group as well \cite{cc}. 
-
-To auto-compose a bulk metamaterial from bottom scales up, we would like to assess self-assembly of metallic colloids in liquid crystals.
-As some orientations of the colloidal particles are energetically more favourable because of nematic elastic energy \cite{smalyukh-2009-assembly,musevic-2013-assembly}, the horseshoe-shaped colloids might, as the calculations of J. Aplinc show, self-assemble in 2D and 3D photonic crystals. 
-The analysis of the interplay between the influences of the geometry of such a colloidal metamaterial and the optical parameters of the materials used for the colloids provides a rich case of study. 
-Comparison of metallic colloidal inclusions with dielectric ones also gives experimental diversity. 
-Since the optical parameters are highly dependent on the frequency of light, contrasting optical response is achieved across different wavelengths. 
-Experimental realisation of these ideas would be explored in the team of prof. Muševič, group F5 on JSI. 
 
 % \subsection{Waveguiding}
 % 0.25 pages
