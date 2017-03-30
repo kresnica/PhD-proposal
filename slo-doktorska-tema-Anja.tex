@@ -1,0 +1,121 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovene]{babel}
+\usepackage[margin=1.3in]{geometry}
+\usepackage{fullpage}
+\usepackage{setspace}
+
+%opening
+\title{\huge{Tok svetlobe v metamaterialih na osnovi \\nematskih tekočin}}
+\author{Avtorica: Anja Bregar \and Mentor: Miha Ravnik}
+
+\begin{document}
+
+\onehalfspacing
+
+\maketitle
+
+
+% METAMATERIALI
+
+Optični metamateriali so zanimivo področje fizike materialov, za katere so značilne izjemne optične lastnosti \cite{wegener-2011-nature-review}.
+Osnovna lastnost metamateiralov je njihova umetno ustvarjena zgradba: zgrajeni so iz periodičnih enotskih celic s peroidičnostjo, ki je v splošnem nekajkrat manjša od valovne dolžine svetlobe, ki jo želimo nadzorovati.
+Tako se svetloba širi skozi material kot bi bil ta homogen. 
+Ker pa lahko specifične geometrijske lastnosti in kemijsko sestavo periodičnih enot prilagajamo, je lahko tudi optični odziv takega kompozita do neke mere nadzorovan.
+Od poznih 90tih let se je polje metamaterialov razširilo na mnogo raziskovalnih področij. 
+V začetnih letih je bilo veliko zanimanja predvsem za materiale, ki bi za izbrane valovne dolžine imeli lomni količnik negativen. 
+Negativni lomni količnik je bil pokazan eksperimentalno za svetlobo od infrardeče do optičnih valovnih dolžin \cite{schultz-2000-first-mtm,zhang-2008-fishnet}. 
+Z metamateriali z negativnim lomnim količnikom je bilo zasnovanih in ustvarjenih tudi nekaj privlačnih aplikacij, npr. leče z resolucijo pod uklonsko limito ali t.i. plašči nevidnosti \cite{capasso-2016-metalens,zhang-2015-skin-cloak}. 
+A zaradi visokih izgub v kovinskih delcih pri optičnih frekvencah in zaradi težav pri sestavljanju metamaterialov, se je pobuda v zadnjem času preselila od razvoja tridimenzionalnih kovinskih metamaterialov k dielektričnim metamaterialov, ki imajo manjše izgube \cite{jacob-2016-all-dielectric}, in metapovršinam --dvodimenzionalnim metamaterialom \cite{capasso-2014-flat-optics-metasurface}. 
+Z metapovršinami je mogoče natančno načrtovati fazo in polarizacijo prepuščene svetlobe \cite{capasso-2014-flat-optics-metasurface} in jih uporabljati kot selektivne absorberje.
+Težko je zasnovati optično popolnoma izotropen metamaterial, a optična anizotropija je bila tudi izkoriščena na področju hiperboličnih metamaterialov \cite{kivshar-2013-hyperbolic}, katerih dielektrični tenzor ima eno od lastnih vrednosti negativno. 
+Z njimi je mogoče doseči negativni lom Poyntingovega vektorja, ne da bi bilo zadoščeno zahtevi po negativni magnetni permeabilnosti. 
+
+
+% TEKOČI KRISTALI
+
+Še ena velika družina optičnih materialov so tekoči kristali, ki jih danes uporabljamo v različnih optičnih in fotoničnih aplikacijah, posebej v tekočekristalnih zaslonih. 
+So mehki materiali, sestavljeni iz paličastih molekul, ki so v določenem območju temperatur in molekulskih koncentracij do neke stopnje orientacijsko urejene, a pozicijsko neurejene \cite{degennes}.
+Iz njihove orientacijske urejenosti izvirajo številne njihove značilnosti. 
+Ena od njih je njihova anizotropna elastičnost: prosta energija tekočih kristalov se dvigne, če z zunanjimi polji ali robnimi pogoji zmotimo njihov orientacijski red. 
+Strukturne in prostorsko odvisne sile, ki sledijo iz elastične proste energije, ustvarjajo množico struktur in pojavov urejanja znotraj direktorskega polja.
+Nadalje iz orientacijskega reda sledi tudi optična anizotropija \cite{hecht-optics}: večinoma je izredni lomni količnik (vzdolž dolge osi molekul tekočega kristala) večji od rednega. 
+Optična dvolomnost tekočih kristalov je uporabno orodje za nadzor toka svetlobe v optičnih sistemih. 
+Ker je tekoče kristale relativno lahko manipulirati z znanjimi polji, še posebej električnim poljem, ki obrne dolgo os tekočekristalnih molekul vzdolž polarizacije električnega polja, je možno nadzirati elastične in optične lastnosti. 
+Dandanes se tekoče kristale raziskuje v različnih smereh, kot npr. usmerjeno urejanje koloidnih kristalov \cite{zumer-2006-assembly,musevic-2013-assembly}, zapletena topološka stanja \cite{musevic-2011-knots,smalyukh-2014-knots,zumer-2014-knots} in mikrofluidika \cite{yeomans-2013-lc-microfluidics}.
+V širšem kontekstu fotonike so aplikacije raznolike na področjih senzorike \cite{abbott-2013-sensing}, nastavljivih leč \cite{neyts-2017-lensing,lin-2011-lensing}, nastavljivih valovodov \cite{kitzerow-2014-fibres}, in nastavljivih laserjev \cite{humar-2016-lasing}.
+
+
+% LC WITH MTM 
+
+Področji tekočih kristalov in metamaterialov sta prepleteni s številnimi eksperimentalnimi in teoretičnimi primeri. 
+Vredno je omeniti, da negativni lom ni omejen na področje metamaterialov: tekoči kristali in drugi dvolomni materiali lahko lomijo svetlobo negativno, ko svetloba na vzorec vpada skoraj pravokotno \cite{lavrentovich-2006-lc-neg}. 
+Holesterične tekočekristalne tanke plasti je mogoče uporabiti kot metapovršine zaradi njihove zmožnosti učinkovitega nadzora nad fazo prepuščene svetlobe \cite{ozaki-2016-patterned-lc}. 
+S tekočimi kristali je bila dosežena orientacijska in do neke mere celo pozicijska urejenost sestavnih gradnikov metamateriala: izvedeni so bili številni eksperimenti z zlatimi nanopaličicami, ki so se zaradi svoje podolgovate oblike in elastičnosti tekočega kristala uredile \cite{lavrentovich-2008-gold-nanorods,smalyukh-2010-self-alignment,lavrentovich-2009-nanorods}. 
+Z numeričnimi analizami je bilo pokazano, da bi bile lastne vrednosti tenzorja dielektričnosti materiala, sestavljenega iz kovinskih kroglic, razpršenih v tekočem kristalu, predznačeni nasprotno \cite{xuan-2013-nanoparticle-lc,khoo-2014-nanoparticle-lc}. 
+V tej smeri so bili opravljeni tudi ekspermienti, ki kažejo, da imajo prevlečene zlate nanosfere, razpršene v nematskem tekočem kristalu, negativno redno in pozitivno izredno lastno vrednost tenzorja dielektričnosti pri nizkih frekvencah \cite{goodby-2011-lc-gold-mtm}.
+Druga možnost uporabe tekočih kristalov znotraj metamaterialov je nastavljanje lastnosti metamateriala z električnim poljem. 
+Ko tekočekristalni metamaterial priključimo na napetost, lahko natančno uravnavamo frekvenco, pri kateri imamo željene metamaterialne lastnosti \cite{zhang-2007-lc-mtm-tuning,shalaev-2007-tunable-lc,baets-2011-ring-resonators}, tekoče kristale pa je mogoče uporabiti tudi za vklapljanje in izklapljanje metapovršin \cite{buchnev-2015-lc-mtm-switch}. 
+
+Osnovna motivacija te disertacije je preučevati vpliv optične anizotropije na odziv metamateriala na svetlobo. 
+Anizotropija bi bila lahko značilnost metamateriala kot celote ali pa lastnost nekaterih njegovih sestavnih delov. 
+Z preučevanjem anizotropije se približujemo drugemu relevantnemu še odprtemu izzivu: ustvariti mehke metamateriale, katerih lastnosti bi bilo mogoče nastavljati z zunanjimi polji in parametri. 
+Kompleksne nematske tekočine, morda v povezavi s koloidnimi vključki, lahko dosežejo takšne anizotropne nadzorske strukture. 
+Tako je končni cilj te disertacije raziskati možnosti za implementacjio nastavljivih mehkih metamaterialov.
+
+
+% REFRACTION INTO HYPERBOLIC METAMATERIALS
+
+Bolj konkretno se bomo ukvarjali z optično anizotropnimi sistemi, katerih lastni vrednosti tenzorja dielektričnosti sta predznačeni različno: z metamateriali, analognimi tekočim kristalom. 
+Zanimal nas bo lom iz vakuuma v metamaterialni sistem z optično osjo, ki je homogena, a nagnjena glede na mejo med snovema. 
+Kot nadgradnjo tega sistema bomo preučevali primer periodične modulacije direktorskega profila. 
+Kot primerjavo z že obsoječim holesteričnim sistemom s pozitivnim lomnim količnikom, kjer se optična os zvija v ravnini, vzporedni z mejo med vakuumom in metamaterialom, bomo raziskovali holesterične hiperbolične metamaterialne sisteme eno ali dvema negativnima lastnima vrednostma dielektričnega tenzorja.
+Še posebej nas bo zanimal režim Braggovega odboja za krožno polarizirano svetlobo. 
+Simulirali bomo tudi širjenje svetlobe pod kotom glede na optično os, za kar še ni jasnega teoretičnega modela. 
+V splošnem bomo modulirali prostorsko spremenljiv in frekvenčno disperzen dielektrični tenzor in raziskali možnosti za učinkovito upravljanje s propagacijo svetlobe. 
+
+
+% WAVEGUIDING 
+
+Nadzor nad tokom svetlobe bomo v kontekstu aplikacij kot so valovni vodniki in leče raziskovali tudi za materiale z pozitivnim lomnim količnikom. 
+Zanimiva priložnost za uporabo v valovnih vodnikih je, da se njihove lastnosti ojača s tekočimi kristali. 
+V sodelovanju s prof. Etiennom Brasseletom z Univerze v Bordeauxu bomo simulirali in teoretično analizirali različne predloge za vaovne vodnike, napolnjene s tekočimi kristali. 
+Z različnimi robnimi pogoji in drugimi tehnikami je mogoče v tekočekristalnih valovnih vodnikih vzpostaviti različne direktorske profile. 
+Prostorsko spreminjanje lomnega količnika lahko nato vpliva na propagacijo svetlobe. 
+Z določenimi direktorskimi profili lahko dosežemo fokusiranje izbranih vpadnih polarizacij svetlobe. 
+Poseben poudarek bomo dali direktorskim profilom, ki svetlobo fokusirajo z pozitivno anizotropnimi tekočimi kristali ($n_o \leq n_e$), tako da so strukture eksperimentalno lažje dosegljive. 
+
+
+% ORDERING OF COLLOIDS
+
+S ciljem ustvarjanja samourejajočih se gradnikov v tridimenzionalnih metamaterialih, bi si radi ogledali urejanje kovinskih koloidnih delcev v tekočem kristalu. 
+Ker so nekatere orientacije koloidnih delcev zaradi nematske proste energije tekočega kristala energijsko bolj ugodne \cite{musevic-2013-assembly,smalyukh-2009-assembly}, je mogoče, da se koloidni delci podkvaste oblike samouredijo v dvo- in trodimenzionalne fotonske kristale. 
+Razmerje med vplivi geometrije takšnega koloidnega metamateriala in optičnimi parametri snovi, ki jih uporabimo za koloide, tvori bogat in kompleksen raziskovalni sistem.
+Primerjava kovinskih koloidnih delcev z dielektričnimi pridoda k eksperimentalni raznolikosti. 
+Ker so optični parametri kovin močno odvisni od frekvence uporabljene svetlobe, dosegamo z različnimi valovnimi dolžninami kontrasten metamaterialni odziv. 
+Eksperimentalna uresničitev teh idej bi potekala v mogočem sodelovanju s skupino prof. Muševiča na IJS-ju. 
+
+
+% KODA
+
+Propagacija svetlobe skozi metamateriale je zaradi različnih materialnih in geometrijskih lastnosti metamaterialnih gradnikov zelo zapletena. 
+Tudi v tekočih kristalih je lahko zaradi zapletenih direktorskih struktur točen izračun toka svetlobe težaven. 
+V tej luči so numerične simulacije ključno orodje v prepoznavanju odziva tovrstnih mehkih struktur. 
+Simulacije za to disertacijo bomo izvedli s programsko kodo, temelječo na metodi FDTD, ki je implementirana znotraj skupine. 
+Pri metodi FDTD (krajše za angl. finite-difference time-domain) \cite{taflove1}, integriramo Maxwellove enačbe eksplicitno, zaradi česar je mogoče različne optične pojave enostavneje obravnavati. 
+Diferencialne enačbe integriramo na Yeejevi mreži, v kateri so komponente električnega in magnetnega polja postavljene v kubični zamaknjeni rešetki in prav tako časovno propagirane z medsebojnim zamikom. 
+Naša koda je prilagojena za optično anizotropne materiale in tudi za anizotropne in frekvenčno disperzne materiale s prilagojeno metodo ADE (angl. auxiliary differential equation \cite{taflove1}). 
+Frekvenčno disperzno funkcijo snovi lahko opišemo s plazemskim, Drudejevim ali Lorentzovim modelom. 
+
+MEdtem ko je glavni cilj te disertacije raziskati optični odziv mehkih metamaterialov, je nujno upoštevati tudi relaksacijo tekočih kristalov zaradi optičnih električnih polj. 
+To bo opravljeno z algoritmi za minimizacijo proste energije \cite{ravnik-2009-lc-modelling}, ki je prav tako implementiran znotraj naše skupine. 
+Programska koda upošteva različne časovne skale za širjenje svetlobe ($\approx \mathrm{ps}$) in relaksacijo tekočega kristala ($\approx \mathrm{ms}$). 
+
+Če povzamemo, v tej disertaciji bomo opisali konceptualno različne kombinacije optičnih metamaterialov in tekočih kristalov, katerih skupna točka bo optična anizotropija. 
+Po eni strani se bomo ukvarjali s homogeniziranimi materiali z izrednimi lastnostmi, po drugi strani pa z načrtovanjem mehkih koloidnih metamaterialov. 
+S tem delom bi radi predlagali nov pogled na nadzor in manipulacijo svetlobe. 
+
+\bibliographystyle{amsplain_copar}
+\bibliography{dispozicija}
+
+\end{document}
