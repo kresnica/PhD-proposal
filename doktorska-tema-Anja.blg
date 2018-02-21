@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: doktorska-tema-Anja.aux
 The style file: amsplain_copar.bst
 Database file #1: dispozicija.bib
-You've used 36 entries,
+You've used 37 entries,
             2196 wiz_defined-function locations,
-            704 strings with 10713 characters,
-and the built_in function-call counts, 7470 in all, are:
-= -- 360
-> -- 554
+            709 strings with 10830 characters,
+and the built_in function-call counts, 7651 in all, are:
+= -- 369
+> -- 565
 < -- 0
-+ -- 197
-- -- 161
-* -- 853
-:= -- 1201
-add.period$ -- 36
-call.type$ -- 36
-change.case$ -- 36
++ -- 201
+- -- 164
+* -- 874
+:= -- 1229
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 294
-empty$ -- 746
-format.name$ -- 161
-if$ -- 1533
+cite$ -- 37
+duplicate$ -- 302
+empty$ -- 766
+format.name$ -- 164
+if$ -- 1571
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 75
-newline$ -- 118
-num.names$ -- 36
-pop$ -- 149
+int.to.str$ -- 37
+missing$ -- 77
+newline$ -- 121
+num.names$ -- 37
+pop$ -- 153
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 54
+skip$ -- 55
 stack$ -- 0
-substring$ -- 387
-swap$ -- 36
+substring$ -- 396
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 68
-width$ -- 38
-write$ -- 268
+while$ -- 70
+width$ -- 39
+write$ -- 275
